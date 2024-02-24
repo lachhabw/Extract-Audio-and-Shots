@@ -39,8 +39,6 @@ This tool is designed to simplify the process of extracting audio and shots from
 1. Download the pre-built executable from the releases section.
 2. Double-click the executable to run the tool.
 
-Sure, here's the notes part for your README.md:
-
 ## Notes
 
 The application features two terminals:
