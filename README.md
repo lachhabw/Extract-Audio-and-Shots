@@ -10,13 +10,12 @@ This tool is designed to simplify the process of extracting audio and shots from
 
 ## Workflow Explanation
 
-1. **Select Source Folder:** Choose the folder where your input videos are located.
-2. **Select Destination Folder:** Specify the folder where you want to save the processed output.
-3. **Choose Extraction Modes:** Select whether to extract audio, shots, or both from the videos.
-4. **Select Output Formats:** Choose the audio and image output formats (e.g., MP3, WAV, JPEG, PNG).
-5. **Set Shot Extraction Parameters:** Specify the number of shots to extract per minute of the video.
-6. **Set Number of Workers:** Optionally, adjust the number of simultaneous videos processed for faster processing.
-7. **Run Video Processing:** Click the button to start processing the videos based on the chosen settings.
+
+1. **Select Source and Destination Folders:** Choose the folder containing your input videos and specify where to save the processed output.
+2. **Choose Extraction Modes and Output Formats:** Select the desired extraction modes (audio, shots, or both) and specify the output formats for audio and images (e.g., MP3, WAV, JPEG, PNG).
+3. **Set Shot Extraction Parameter:** Specify the number of shots to extract per minute of the video.
+4. **Set Number of Workers:** Adjust the number of simultaneous videos being processed. By default, the number of workers is set to the number of available CPU cores.
+5. **Run Video Processing:** Click the button to start processing the videos.
 
 ## Setup Instructions
 
@@ -40,9 +39,10 @@ This tool is designed to simplify the process of extracting audio and shots from
 1. Download the pre-built executable from the releases section.
 2. Double-click the executable to run the tool.
 
-## Configuration
+Sure, here's the notes part for your README.md:
 
-- **Audio Output Format:** Choose from MP3, WAV, AAC, etc.
-- **Image Output Format:** Select JPG, JPEG, PNG, etc.
-- **Number of Shots to Extract:** Set the desired number of shots per minute.
-- **Number of Parallel Threads:** Adjust the number of threads for concurrent processing. By default, it's set to the number of available CPU cores.
+## Notes
+
+The application features two terminals:
+  - An embedded terminal displays processed files along with their status (success or failure).
+  - Another terminal provides backend progress updates for each file being processed.
