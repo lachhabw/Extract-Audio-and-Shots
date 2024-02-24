@@ -6,7 +6,7 @@ This tool is designed to simplify the process of extracting audio and shots from
 
 ## Snapshot
 
-[Insert an image or a series of images showcasing your tool's GUI here]
+![Tool Snapshot](Snapshot.png)
 
 ## Workflow Explanation
 
