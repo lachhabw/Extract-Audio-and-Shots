@@ -15,7 +15,7 @@ This tool is designed to simplify the process of extracting audio and shots from
 3. **Choose Extraction Modes:** Select whether to extract audio, shots, or both from the videos.
 4. **Select Output Formats:** Choose the audio and image output formats (e.g., MP3, WAV, JPEG, PNG).
 5. **Set Shot Extraction Parameters:** Specify the number of shots to extract per minute of the video.
-6. **Set Parallel Threads:** Optionally, adjust the number of simultaneous videos processed for faster processing.
+6. **Set Number of Workers:** Optionally, adjust the number of simultaneous videos processed for faster processing.
 7. **Run Video Processing:** Click the button to start processing the videos based on the chosen settings.
 
 ## Setup Instructions
