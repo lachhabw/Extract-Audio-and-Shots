@@ -15,33 +15,22 @@ This tool is designed to simplify the process of extracting audio and shots from
 3. **Choose Extraction Modes:** Select whether to extract audio, shots, or both from the videos.
 4. **Select Output Formats:** Choose the audio and image output formats (e.g., MP3, WAV, JPEG, PNG).
 5. **Set Shot Extraction Parameters:** Specify the number of shots to extract per minute of the video.
-6. **Set Parallel Threads:** Optionally, adjust the number of parallel threads for faster processing.
+6. **Set Parallel Threads:** Optionally, adjust the number of simultaneous videos processed for faster processing.
 7. **Run Video Processing:** Click the button to start processing the videos based on the chosen settings.
 
 ## Setup Instructions
 
 ### Using Python Virtual Environment
 
-1. Clone this repository to your local machine.
-2. Navigate to the project directory.
-3. Create a Python virtual environment:
+1. Create a Python virtual environment:
    ```bash
    python -m venv local
    ```
-4. Activate the virtual environment:
-   - On Windows:
-     ```bash
-     .\local\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```bash
-     source local/bin/activate
-     ```
-5. Install dependencies:
+2. Install dependencies:
    ```bash
    .\local\Scripts\pip install moviepy==1.0.3
    ```
-6. Run the tool:
+3. Run the tool:
    ```bash
    .\local\Scripts\python main.py
    ```
@@ -54,6 +43,6 @@ This tool is designed to simplify the process of extracting audio and shots from
 ## Configuration
 
 - **Audio Output Format:** Choose from MP3, WAV, AAC, etc.
-- **Image Output Format:** Select JPEG, PNG, etc.
+- **Image Output Format:** Select JPG, JPEG, PNG, etc.
 - **Number of Shots to Extract:** Set the desired number of shots per minute.
 - **Number of Parallel Threads:** Adjust the number of threads for concurrent processing. By default, it's set to the number of available CPU cores.
